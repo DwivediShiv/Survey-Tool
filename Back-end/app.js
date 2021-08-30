@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const showRoutes = require("./Router/show");
 const entryRoutes = require("./Router/entry");
+const questionsRoutes = require("./Router/questions");
 
 const app = express();
 
@@ -16,6 +17,7 @@ app.use((req, res, next) => {
 
 app.use("/show", showRoutes);
 app.use("/entry", entryRoutes);
+app.use("/questions", questionsRoutes);
 
 app.use((err, req, res, next) => {
   console.log(err);
@@ -24,7 +26,7 @@ app.use((err, req, res, next) => {
   const data = err.data;
   res.status(status).json({
     message: message,
-    data: data,
+    errorData: data,
   });
 });
 

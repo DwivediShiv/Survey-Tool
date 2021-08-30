@@ -20,7 +20,7 @@ router.post(
         });
       })
       .normalizeEmail(),
-    body("name").trim().not().isEmpty(),
+    body("name").trim().not().isEmpty().withMessage("Please enter your name"),
   ],
   userEntryControlller.user
 );
