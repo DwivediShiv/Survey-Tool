@@ -1,0 +1,7 @@
+.footer {
+  bottom: 0;
+  display: block;
+  background-color: rgb(143, 150, 156);
+  padding: 6px;
+  font-size: 10px;
+}

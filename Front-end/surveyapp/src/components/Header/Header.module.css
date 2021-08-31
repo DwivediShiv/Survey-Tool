@@ -1,0 +1,47 @@
+.navbar {
+  background: white;
+  padding: 1em;
+}
+
+.navbar .container {
+  color: black;
+
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 180px auto;
+  grid-template-columns: 180px auto;
+  -webkit-box-pack: unset;
+  -ms-flex-pack: unset;
+  justify-content: unset;
+}
+.container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+ul li {
+  margin: 0 1em;
+}
+
+.link {
+  text-decoration: none;
+  color: #444444;
+}
+
+ul li a:hover {
+  color: green;
+}
+ul li a:active {
+  color: green;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  color: Black;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.navbar .logo span {
+  color: green;
+}

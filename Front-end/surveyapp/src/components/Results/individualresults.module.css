@@ -1,0 +1,25 @@
+.container {
+  min-height: 450px;
+  width: 90%;
+}
+.cardContainer {
+  width: 90%;
+  background: green;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  border: black 2px solid;
+  border-radius: 20px;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.cardContainer h4,
+h5 {
+  margin: 0;
+}

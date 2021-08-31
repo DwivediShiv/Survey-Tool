@@ -1,0 +1,12 @@
+.barChart {
+  width: 350px;
+  text-align: center;
+
+  margin: 5px;
+  padding: 10px;
+}
+
+.barContainer {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+}

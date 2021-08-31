@@ -1,0 +1,34 @@
+.questionCard {
+  margin: 5px;
+  padding: 10px;
+}
+
+.questionCard h3 {
+  color: green;
+}
+
+.inputDiv {
+  display: block;
+  margin: 0;
+  padding: 5px;
+  background: #f2f2f2;
+  border: green 2px solid;
+  border-radius: 5px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.btnContainer {
+  text-align: center;
+}
+
+.btn {
+  padding: 0.8em;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  background: green;
+  width: 8em;
+  font-size: 18px;
+  margin: 1em;
+}
